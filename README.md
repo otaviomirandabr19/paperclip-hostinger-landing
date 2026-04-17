@@ -10,7 +10,8 @@ estática simples e sem dependências.
 
 ## Estrutura
 
-- `site/`: arquivos estáticos publicados no GitHub Pages
+- `site/`: código-fonte estático da landing page
+- `dist/`: artefato gerado pelo Vite para publicação no GitHub Pages
 - `.github/workflows/deploy-pages.yml`: deploy automático em push para `main`
 - `docs/landing/`: pacote inicial de copy, research e direção visual para o handoff
 
@@ -19,6 +20,7 @@ estática simples e sem dependências.
 - Repositório oficial: `https://github.com/otaviomirandabr19/paperclip-hostinger-landing`
 - URL esperada do Pages: `https://otaviomirandabr19.github.io/paperclip-hostinger-landing/`
 - Publicação automática via GitHub Actions em push para `main`
+- Build: `npm run build` gera `dist/` com assets relativos compatíveis com GitHub Pages de projeto
 
 ## Segurança
 
