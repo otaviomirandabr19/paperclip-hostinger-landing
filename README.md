@@ -12,7 +12,7 @@ estática simples e sem dependências.
 
 - `site/`: arquivos estáticos publicados no GitHub Pages
 - `.github/workflows/deploy-pages.yml`: deploy automático em push para `main`
-- `copy-e-direcao-landing-page.md`: direção editorial e visual de referência
+- `docs/landing/`: pacote inicial de copy, research e direção visual para o handoff
 
 ## Deploy
 
