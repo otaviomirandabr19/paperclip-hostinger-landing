@@ -134,6 +134,12 @@ h2 {
   margin-top: 48px;
 }
 
+.cta-inline {
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -336,6 +342,11 @@ h2 {
 @media (max-width: 640px) {
   .page-shell {
     padding: 48px 0 96px;
+  }
+
+  .cta-inline {
+    flex-direction: column;
+    align-items: flex-start;
   }
   
   .kanban {

@@ -1,4 +1,4 @@
-const animatedSections = document.querySelectorAll(".hero, .slab, .grid");
+const animatedSections = document.querySelectorAll(".slab");
 
 const observer = new IntersectionObserver(
   (entries) => {
