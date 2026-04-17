@@ -1,0 +1,27 @@
+{
+  "name": "_default",
+  "version": "1.0.0",
+  "description": "Landing page pública da parceria Paperclip + Hostinger.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite site",
+    "build": "vite build site --outDir ../dist --emptyOutDir",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otaviomirandabr19/paperclip-hostinger-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/otaviomirandabr19/paperclip-hostinger-landing/issues"
+  },
+  "homepage": "https://github.com/otaviomirandabr19/paperclip-hostinger-landing#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "vite": "^8.0.8"
+  }
+}
